@@ -1,0 +1,13 @@
+# Nmap 7.94SVN scan initiated Tue Aug 25 16:53:10 2026 as: nmap -Pn -sV -p 135,139,445,3389 -oN win10_hardened_scan.txt 10.162.238.20
+Nmap scan report for 10.162.238.20
+Host is up (0.00038s latency).
+
+PORT     STATE    SERVICE       VERSION
+135/tcp  open     msrpc         Microsoft Windows RPC
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+3389/tcp filtered ms-wbt-server
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Aug 25 16:53:17 2026 -- 1 IP address (1 host up) scanned in 7.38 secondst
